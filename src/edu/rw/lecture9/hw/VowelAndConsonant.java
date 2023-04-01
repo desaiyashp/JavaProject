@@ -1,7 +1,7 @@
 package edu.rw.lecture9.hw;
 
 public class VowelAndConsonant {
-    String newText = "Hello, Niravbhai, Good Morning!";
+    String newText = "Hello, World!";
     void findVowelInString (String inputText){
         String lowerCaseText = inputText.toLowerCase();     // converted input text into lowercase
         char[] vowelList = {'a','e','i','o','u'};           // defined & initialised array of vowel
@@ -24,9 +24,12 @@ public class VowelAndConsonant {
         }
 
         System.out.println("-----------------------------");
-        System.out.println("Total number of indexes in this String are "+(i-1));
+        System.out.println("Length of String is: "+inputText.length());
+        System.out.println("Total index value is: "+(i-1));
+        System.out.println("-----------------------------");
         System.out.println("No of Vowels: "+vowel);
         System.out.println("No of Consonants: "+consonant);
+        System.out.println("-----------------------------");
     }
 
     public static void main(String[] args) {
